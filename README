@@ -1,0 +1,22 @@
+###################################################################################
+## How to add a link to the database?
+###################################################################################
+just add the link to the file model_database.dat note that the first colum is actually irrelevant and actually not used
+when you are done check if your model is accepted by running
+python check_database.py
+
+then bzr commit and bzr push and the server will be updated in ~max 1 h.
+Note that 
+ 1) the check will be performed by the cluster anyway
+ 2) the file online are based on the version passing the check
+
+###################################################################################
+## How to add a new model from the FR database
+###################################################################################
+run
+python check_new_fr_model.py
+This will update the file: last_fr_check
+which include the date of the last time you run that script.
+new model detected will be added AFTER confirmation.
+
+If needed you follow the manual procedure for some model
