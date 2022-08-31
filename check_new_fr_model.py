@@ -43,17 +43,7 @@ text = data.read()
 
 current_db = {}
 invert_db = {}
-for line in open('new_model_db.dat'):
-    try:
-        key, link = line.split()
-    except:
-        print(line)
-        continue
-    
-    current_db[key] = link
-    invert_db[link] = key
 
-print(("2HDM" in current_db))
 base_db = open("model_database.dat","a")
 text = text.decode()
 print((text.count('''href="/attachment/wiki/''')))
