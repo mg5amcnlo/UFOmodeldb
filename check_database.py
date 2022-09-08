@@ -141,6 +141,7 @@ if __name__ == "__main__":
     
     fsock = open('%s/new_model_db.dat' % pwd ,'w')
     for key, link in list(names.items()):
+        link = link.replace('http://http://', 'http://')
         fsock.write('%s\t\t\t%s\n' % (key,link)) 
     
     #fsock = open('import.dat','w')
