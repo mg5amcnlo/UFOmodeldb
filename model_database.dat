@@ -5,6 +5,7 @@ LS012			http://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/AnomalousGaugeCoupli
 SMEFTsim_A_general_MwScheme_UFO_v2			http://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/SMEFT/SMEFTsim_A_general_MwScheme_UFO_v2.tar.gz
 SM_LM0123_UFO			http://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/AnomalousGaugeCoupling/SM_LM0123_UFO.tgz
 RS			./RS.tgz
+AAttbar_UFO         ./AAttbar_UFO.tar.gz
 usrmod_v4			./usrmod_v4.tgz
 IDM_NLO_EW_CM_UFO			./IDM_NLO_EW_CM_UFO.tgz
 topphilic_NLO_EW_CM_UFO			./top-philic_NLO_EW_CM_UFO.tgz
