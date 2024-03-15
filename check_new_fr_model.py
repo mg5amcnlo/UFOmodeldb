@@ -43,6 +43,10 @@ text = data.read()
 
 current_db = {}
 invert_db = {}
+for line in open("model_database.dat"):
+    name, link = lines.split(' ', 1)
+    invert_db[link] = name
+    current_db[name] = link
 
 base_db = open("model_database.dat","a")
 text = text.decode()
@@ -62,7 +66,7 @@ for match in pattern.finditer(text):
         print("        Not valid UFO model")
     elif modelname in current_db:
         print(("        found modelname %s duplicate with existing model: %s" % (modelname,current_db[modelname])))
-        ans = eval(input("Do you want to update the database (y/n)"))
+        ans = eval(input("D you want to update the database (y/n)"))
         if ans == "y":
             base_db.write("%s %s\n" % (modelname, link))
     else:
