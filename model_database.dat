@@ -48,6 +48,8 @@ loop_qcd_qed_sm_a0			./loop_qcd_qed_sm_a0.tgz
 loop_qcd_qed_sm_Gmu			./loop_qcd_qed_sm_Gmu.tgz
 loop_qcd_qed_sm_Gmu_4FS			./loop_qcd_qed_sm_Gmu_4FS.tgz
 loop_qcd_qed_sm_4FS			./loop_qcd_qed_sm_4FS.tgz
+loop_qcd_qed_sm_Gmu_forSudakov          ./loop_qcd_qed_sm_Gmu_forSudakov.tgz
+loop_qcd_qed_sm_forSudakov          ./loop_qcd_qed_sm_forSudakov.tgz
 DMsimp_UFO			http://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/DMsimp/DMsimp_UFO.2.zip
 MLFV_Type-III_See-Saw_Model_UFO			http://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/MLFVtIIIseesaw/mlfvt3ss.tgz
 DMSimp_t			http://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/DMsimpt/dmsimpt_v1.3.ufo.tgz
