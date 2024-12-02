@@ -26,7 +26,14 @@ def validate_UFO_link(link, name="unknow"):
     """download the model/check the validity
        return the name of the UFO model if find one
        return False if the link is not in a good format"""
-    
+
+    if 'MG5_aMC_v' in link:
+        return False
+    elif 'pythia8' in link:
+        return False
+    elif 'MG5aMC_LTS_' in link:
+        return False
+
     # create tmp directory to avoid side effect
     try:
         shutil.rmtree('tmp')
