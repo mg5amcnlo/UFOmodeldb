@@ -52,7 +52,7 @@ def FR_update(current_db, invert_db):
     print((this_year, this_month, this_day))
 
     print(("http://feynrules.irmp.ucl.ac.be/timeline?from=%s+%s%%2C+%s&daysback=%s&authors=&wiki=on&update=Update" % (this_month, this_day, this_year, delta.days)))
-    data = urllib.request.urlopen("http://feynrules.irmp.ucl.ac.be/timeline?from=%s+%s%%2C+%s&daysback=%s&authors=&wiki=on&update=Update" % (this_month, this_day, this_year, delta.days))
+    data = urllib.request.urlopen("https://feynrules.irmp.ucl.ac.be/timeline?from=%s+%s%%2C+%s&daysback=%s&authors=&wiki=on&update=Update" % (this_month, this_day, this_year, delta.days))
 
     import re
 #pattern = '''\<dt class="attachment"\>'''
