@@ -416,3 +416,8 @@ SM_dusc_NLO_py3 https://cms-project-generators.web.cern.ch/cms-project-generator
 ZpHiggs_UFO https://cms-project-generators.web.cern.ch/cms-project-generators/ZpHiggs_UFO.tar.gz
 sleptoquark_uv_UFO https://cms-project-generators.web.cern.ch/cms-project-generators/sleptoquark_uv_UFO.tar.gz
 sleptoquark_uv_UFO https://cms-project-generators.web.cern.ch/cms-project-generators/sleptoquark_uv_UFO_model.tar.gz
+eDMsimp_s_spin0 http://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/DMsimp/eDMsimp_s_spin0.zip
+eDMsimp_s_spin1 http://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/DMsimp/eDMsimp_s_spin1.zip
+heco_spinzero_resum http://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/HECO/heco_spinzero_resum.tar.gz
+SM_ZPolar_Gen3_XLO http://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/VPolarization/SM_ZPolar_Gen3_XLO.tgz
+SM_Loop_ZPolar_Gen3 http://feynrules.irmp.ucl.ac.be/raw-attachment/wiki/VPolarization/SM_Loop_ZPolar_Gen3.tgz

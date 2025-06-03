@@ -17,6 +17,7 @@ if (delta.days>90):
     print("WARNING maximum time stamp is 90 days")
     today = last_check + datetime.timedelta(days=90)
     print(today)
+    delta = today - last_check
 
 
 
@@ -59,7 +60,7 @@ def FR_update(current_db, invert_db):
     pattern='''<a href="/attachment/wiki/(?P<link>[/\w.]*)">'''
     pattern='''<a\s*href="/attachment/wiki/(?P<link>[/\w.\-_]*)"
                     .*? 
-                   by\s*<span\s+class="author">(?P<author>[\w\s.]*)</span>
+                   by\s*<span\s+class="trac-author">(?P<author>[\w\s.]*)</span>
     '''
 
     pattern = re.compile(pattern, re.I+re.M+re.X+re.DOTALL)
