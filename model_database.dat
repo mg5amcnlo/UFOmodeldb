@@ -431,3 +431,6 @@ Axion_EFT_UFO https://cms-project-generators.web.cern.ch/cms-project-generators/
 GM_UFO_new https://cms-project-generators.web.cern.ch/cms-project-generators/GM_UFO_new.zip
 LPstable_cascade https://cms-project-generators.web.cern.ch/cms-project-generators/disorder_cascade.tar.gz
 LPstable_chain https://cms-project-generators.web.cern.ch/cms-project-generators/disorder_chain.tar.gz
+HAHM_darkphoton_iDM_UFO https://cms-project-generators.web.cern.ch/cms-project-generators/HAHM_darkphoton_iDM_UFO_stable.tar.gz
+SMEFTsim_topU3l_MwScheme_UFO_ctGpatched https://cms-project-generators.web.cern.ch/cms-project-generators/SMEFTsim_topU3l_MwScheme_UFO_ctGpatched.tar.gz
+ThetaColoron2025_UFO https://cms-project-generators.web.cern.ch/cms-project-generators/ThetaColoron2025_UFO.zip
